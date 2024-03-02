@@ -8,8 +8,9 @@ namespace WebApplication1.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Raining", "Summer ---Version 3"
-        };
+
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Raining", "Summer" 
+        }; --- Verison 200
 
         private readonly ILogger<WeatherForecastController> _logger;
 
